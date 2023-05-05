@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Il mio sportbook</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<header>
+		<h1>Il mio sportbook</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Scommesse</a></li>
+				<li><a href="#">Promozioni</a></li>
+				<li><a href="#">Contatti</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="scommesse">
+			<h2>Scommesse sportive</h2>
+			<p>Scegli tra una vasta gamma di eventi sportivi su cui scommettere. Calcio, basket, tennis e molto altro ancora!</p>
+			<form>
+				<label for="sport">Scegli lo sport:</label>
+				<select id="sport" name="sport">
+					<option value="calcio">Calcio</option>
+					<option value="basket">Basket</option>
+					<option value="tennis">Tennis</option>
+				</select>
+				<br>
+				<label for="evento">Scegli l'evento:</label>
+				<select id="evento" name="evento">
+					<option value="juventus-inter">Juventus-Inter</option>
+					<option value="milano-roma">Milano-Roma</option>
+					<option value="federer-nadal">Federer-Nadal</option>
+				</select>
+				<br>
+				<label for="importo">Importo scommessa:</label>
+				<input type="text" id="importo" name="importo">
+				<br>
+				<button type="submit">Scommetti!</button>
+			</form>
+		</section>
+
+		<section id="promozioni">
+			<h2>Promozioni</h2>
+			<p>Scopri le nostre offerte e promozioni speciali per aumentare le tue vincite!</p>
+			<ul>
+				<li><a href="#">Bonus di benvenuto del 100%</a></li>
+				<li><a href="#">Scommessa gratuita per ogni 5 scommesse effettuate</a></li>
+				<li><a href="#">Rimborso in caso di pareggio</a></li>
+			</ul>
+		</section>
+
+		<section id="contatti">
+			<h2>Contatti</h2>
+			<p>Contattaci per qualsiasi domanda o problema:</p>
+			<ul>
+				<li>Telefono: 123-456789</li>
+				<li>Email: info@miosportbook.com</li>
+				<li>Indirizzo: Via dei Scommettitori, 1 - Roma</li>
+			</ul>
+		</section>
+	</main>
+
+	<footer>
+		<p>Il mio sportbook - Copyright &copy; 2023
+	</footer>
+
+</body>
+</html>
